@@ -12,14 +12,14 @@ namespace BlackJack
         {
 
             var dc = new Deck();
-            card card 
+             
             
 
             dc.Shuffle();
-         
-            card2 = (Card) card.Clone();
+            Card cd = dc.DrawACard();
+            //card2 = (Card) card.Clone();
 
-            Console.WriteLine(card.cardName + " " + );
+            Console.WriteLine(cd.cardName);
             Console.ReadKey();
         }
     }
