@@ -53,15 +53,21 @@
             this.mnuFileNew = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuFileExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.commandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hinrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cheatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.picPlayer7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.picDealer7 = new System.Windows.Forms.PictureBox();
+            this.picComputer7 = new System.Windows.Forms.PictureBox();
+            this.picComputer6 = new System.Windows.Forms.PictureBox();
+            this.picComputer5 = new System.Windows.Forms.PictureBox();
+            this.picComputer4 = new System.Windows.Forms.PictureBox();
+            this.picComputer3 = new System.Windows.Forms.PictureBox();
+            this.picComputer2 = new System.Windows.Forms.PictureBox();
+            this.picComputer1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -84,12 +90,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.commandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hinrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cheatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).BeginInit();
@@ -104,14 +104,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
             this.mnuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -138,7 +138,7 @@
             // 
             // picDealer1
             // 
-//            this.picDealer1.InitialImage = global::Blackjack.Properties.Resources.CARD00;
+            this.picDealer1.Image = global::BlackJack.Properties.Resources.CARD0;
             this.picDealer1.Location = new System.Drawing.Point(13, 57);
             this.picDealer1.Name = "picDealer1";
             this.picDealer1.Size = new System.Drawing.Size(85, 120);
@@ -353,21 +353,62 @@
             // mnuFileNew
             // 
             this.mnuFileNew.Name = "mnuFileNew";
-            this.mnuFileNew.Size = new System.Drawing.Size(181, 26);
+            this.mnuFileNew.Size = new System.Drawing.Size(157, 26);
             this.mnuFileNew.Text = "New Game";
             this.mnuFileNew.Click += new System.EventHandler(this.mnuFileNew_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
             // 
             // mnuFileExit
             // 
             this.mnuFileExit.Name = "mnuFileExit";
-            this.mnuFileExit.Size = new System.Drawing.Size(181, 26);
+            this.mnuFileExit.Size = new System.Drawing.Size(157, 26);
             this.mnuFileExit.Text = "Exit";
             this.mnuFileExit.Click += new System.EventHandler(this.mnuFileExit_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // commandToolStripMenuItem
+            // 
+            this.commandToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hinrToolStripMenuItem,
+            this.cheatToolStripMenuItem,
+            this.historyToolStripMenuItem});
+            this.commandToolStripMenuItem.Name = "commandToolStripMenuItem";
+            this.commandToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.commandToolStripMenuItem.Text = "Command";
+            // 
+            // hinrToolStripMenuItem
+            // 
+            this.hinrToolStripMenuItem.Name = "hinrToolStripMenuItem";
+            this.hinrToolStripMenuItem.Size = new System.Drawing.Size(131, 26);
+            this.hinrToolStripMenuItem.Text = "Hint";
+            this.hinrToolStripMenuItem.Click += new System.EventHandler(this.hinrToolStripMenuItem_Click);
+            // 
+            // cheatToolStripMenuItem
+            // 
+            this.cheatToolStripMenuItem.Name = "cheatToolStripMenuItem";
+            this.cheatToolStripMenuItem.Size = new System.Drawing.Size(131, 26);
+            this.cheatToolStripMenuItem.Text = "Cheat";
+            // 
+            // historyToolStripMenuItem
+            // 
+            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(131, 26);
+            this.historyToolStripMenuItem.Text = "History";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.aboutToolStripMenuItem.Text = "About";
             // 
             // picPlayer7
             // 
@@ -378,78 +419,77 @@
             this.picPlayer7.TabIndex = 26;
             this.picPlayer7.TabStop = false;
             // 
-            // pictureBox2
+            // picDealer7
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(566, 57);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
+            this.picDealer7.Location = new System.Drawing.Point(566, 57);
+            this.picDealer7.Name = "picDealer7";
+            this.picDealer7.Size = new System.Drawing.Size(85, 120);
+            this.picDealer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer7.TabIndex = 27;
+            this.picDealer7.TabStop = false;
             // 
-            // pictureBox3
+            // picComputer7
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(569, 420);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 36;
-            this.pictureBox3.TabStop = false;
+            this.picComputer7.Location = new System.Drawing.Point(569, 420);
+            this.picComputer7.Name = "picComputer7";
+            this.picComputer7.Size = new System.Drawing.Size(85, 120);
+            this.picComputer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer7.TabIndex = 36;
+            this.picComputer7.TabStop = false;
             // 
-            // pictureBox4
+            // picComputer6
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(478, 420);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 35;
-            this.pictureBox4.TabStop = false;
+            this.picComputer6.Location = new System.Drawing.Point(478, 420);
+            this.picComputer6.Name = "picComputer6";
+            this.picComputer6.Size = new System.Drawing.Size(85, 120);
+            this.picComputer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer6.TabIndex = 35;
+            this.picComputer6.TabStop = false;
             // 
-            // pictureBox5
+            // picComputer5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(384, 420);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 34;
-            this.pictureBox5.TabStop = false;
+            this.picComputer5.Location = new System.Drawing.Point(384, 420);
+            this.picComputer5.Name = "picComputer5";
+            this.picComputer5.Size = new System.Drawing.Size(85, 120);
+            this.picComputer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer5.TabIndex = 34;
+            this.picComputer5.TabStop = false;
             // 
-            // pictureBox6
+            // picComputer4
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(292, 420);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 33;
-            this.pictureBox6.TabStop = false;
+            this.picComputer4.Location = new System.Drawing.Point(292, 420);
+            this.picComputer4.Name = "picComputer4";
+            this.picComputer4.Size = new System.Drawing.Size(85, 120);
+            this.picComputer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer4.TabIndex = 33;
+            this.picComputer4.TabStop = false;
             // 
-            // pictureBox7
+            // picComputer3
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(200, 420);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 32;
-            this.pictureBox7.TabStop = false;
+            this.picComputer3.Location = new System.Drawing.Point(200, 420);
+            this.picComputer3.Name = "picComputer3";
+            this.picComputer3.Size = new System.Drawing.Size(85, 120);
+            this.picComputer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer3.TabIndex = 32;
+            this.picComputer3.TabStop = false;
             // 
-            // pictureBox8
+            // picComputer2
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(108, 420);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 31;
-            this.pictureBox8.TabStop = false;
+            this.picComputer2.Location = new System.Drawing.Point(108, 420);
+            this.picComputer2.Name = "picComputer2";
+            this.picComputer2.Size = new System.Drawing.Size(85, 120);
+            this.picComputer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer2.TabIndex = 31;
+            this.picComputer2.TabStop = false;
             // 
-            // pictureBox9
+            // picComputer1
             // 
-//            this.pictureBox9.InitialImage = global::Blackjack.Properties.Resources.CARD00;
-            this.pictureBox9.Location = new System.Drawing.Point(16, 420);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(85, 120);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 30;
-            this.pictureBox9.TabStop = false;
+            this.picComputer1.Location = new System.Drawing.Point(16, 420);
+            this.picComputer1.Name = "picComputer1";
+            this.picComputer1.Size = new System.Drawing.Size(85, 120);
+            this.picComputer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer1.TabIndex = 30;
+            this.picComputer1.TabStop = false;
             // 
             // label2
             // 
@@ -706,48 +746,7 @@
             this.label27.TabIndex = 54;
             this.label27.Text = "Balance";
             // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
-            this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // commandToolStripMenuItem
-            // 
-            this.commandToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hinrToolStripMenuItem,
-            this.cheatToolStripMenuItem,
-            this.historyToolStripMenuItem});
-            this.commandToolStripMenuItem.Name = "commandToolStripMenuItem";
-            this.commandToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
-            this.commandToolStripMenuItem.Text = "Command";
-            // 
-            // hinrToolStripMenuItem
-            // 
-            this.hinrToolStripMenuItem.Name = "hinrToolStripMenuItem";
-            this.hinrToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.hinrToolStripMenuItem.Text = "Hint";
-            this.hinrToolStripMenuItem.Click += new System.EventHandler(this.hinrToolStripMenuItem_Click);
-            // 
-            // cheatToolStripMenuItem
-            // 
-            this.cheatToolStripMenuItem.Name = "cheatToolStripMenuItem";
-            this.cheatToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.cheatToolStripMenuItem.Text = "Cheat";
-            // 
-            // historyToolStripMenuItem
-            // 
-            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-            this.historyToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.historyToolStripMenuItem.Text = "History";
-            // 
-            // frmBlackjack
+            // frmBlackJack
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(889, 634);
@@ -771,16 +770,16 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.picComputer7);
+            this.Controls.Add(this.picComputer6);
+            this.Controls.Add(this.picComputer5);
+            this.Controls.Add(this.picComputer4);
+            this.Controls.Add(this.picComputer3);
+            this.Controls.Add(this.picComputer2);
+            this.Controls.Add(this.picComputer1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.picDealer7);
             this.Controls.Add(this.picPlayer7);
             this.Controls.Add(this.lblWinnings);
             this.Controls.Add(this.label5);
@@ -806,7 +805,7 @@
             this.Controls.Add(this.mnuMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.mnuMain;
-            this.Name = "frmBlackjack";
+            this.Name = "frmBlackJack";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Blackjack";
             this.Load += new System.EventHandler(this.frmBlackjack_Load);
@@ -825,14 +824,14 @@
             this.mnuMain.ResumeLayout(false);
             this.mnuMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -867,14 +866,14 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem mnuFileExit;
         private System.Windows.Forms.PictureBox picPlayer7;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox picDealer7;
+        private System.Windows.Forms.PictureBox picComputer7;
+        private System.Windows.Forms.PictureBox picComputer6;
+        private System.Windows.Forms.PictureBox picComputer5;
+        private System.Windows.Forms.PictureBox picComputer4;
+        private System.Windows.Forms.PictureBox picComputer3;
+        private System.Windows.Forms.PictureBox picComputer2;
+        private System.Windows.Forms.PictureBox picComputer1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;

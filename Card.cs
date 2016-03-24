@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 
 
@@ -10,11 +11,11 @@ using System.Threading.Tasks;
 namespace BlackJack
     {
     public enum Suit
-        {
-        Heart=1,
-        Diamond,
+        {      
+        Diamond=1,
+        Club,
+        Heart,
         Spade,
-        Club
         }
 
     public enum Face
@@ -35,7 +36,7 @@ namespace BlackJack
         }
     class Card
     {
-     
+        const string FILEPATH = @"C:\Cards\";
         public int[] CardBJValue { get; set; }
         public int CardValue { get; set; }
         //public string Suit { get; set; }
@@ -43,7 +44,9 @@ namespace BlackJack
         public Suit Suit { get; set; }
         public Face Face { get; set; }
 
+        public Image CardFace { get; set; }
 
+        public Image CardBack { get; set; }
 
         // private string CardName;
 
@@ -65,6 +68,31 @@ namespace BlackJack
             this.CardValue = cardValue;
             this.Suit = (Suit) suit;
             this.Face = (Face) cardValue;
+            int nr = 0;
+
+            switch (Suit)
+                {
+                case Suit.Heart:
+                    nr = cardValue-1;
+                    break;
+                case Suit.Diamond:
+                    nr = cardValue +12;
+                    break;
+                case Suit.Spade:
+                    nr = cardValue + 38;
+                    break;
+                case Suit.Club:
+                    nr = cardValue + 25;
+                    break;
+                default:
+                    break;
+                }
+
+
+
+            this.CardBack = Image.FromFile(FILEPATH+ "\\cardback.wmf");
+
+            this.CardFace= Image.FromFile(FILEPATH + "\\CARD" + nr + ".wmf");
 
             if (cardValue == 1)
                 {

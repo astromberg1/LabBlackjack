@@ -31,23 +31,28 @@ namespace BlackJack
 
         private void frmBlackjack_Load(object sender, EventArgs e)
         {
-         /*   string cn;
-            // load card images and determine points for each
-            cardBack = Image.FromFile(Application.StartupPath + "\\cardback.wmf");
-            for (int cardNumber = 0; cardNumber < 52; cardNumber++)
-            {
-                cn = cardNumber.ToString();
-                if (cardNumber < 10)
-                    cn = "0" + cn;
-                cardImage[cardNumber] = Image.FromFile(Application.StartupPath + "\\card" + cn + ".wmf");
-                int i = cardNumber % 13 + 1; // get a number from 1 (A) to 13 (K)
-                if (i == 11 || i == 12 || i == 13) // Jack, Queen, King
-                    cardPoints[cardNumber] = 10;
-                else // A through 10
-                    cardPoints[cardNumber] = i;
-            }
-            */
-            mnuFileNew.PerformClick();
+            var dc = new Deck();
+            dc.Shuffle();
+            Card cd = dc.DrawACard();
+            picPlayer1.Image = cd.CardFace;
+            picPlayer1.Visible = true;
+            /*   string cn;
+               // load card images and determine points for each
+               cardBack = Image.FromFile(Application.StartupPath + "\\cardback.wmf");
+               for (int cardNumber = 0; cardNumber < 52; cardNumber++)
+               {
+                   cn = cardNumber.ToString();
+                   if (cardNumber < 10)
+                       cn = "0" + cn;
+                   cardImage[cardNumber] = Image.FromFile(Application.StartupPath + "\\card" + cn + ".wmf");
+                   int i = cardNumber % 13 + 1; // get a number from 1 (A) to 13 (K)
+                   if (i == 11 || i == 12 || i == 13) // Jack, Queen, King
+                       cardPoints[cardNumber] = 10;
+                   else // A through 10
+                       cardPoints[cardNumber] = i;
+               }
+               */
+            //mnuFileNew.PerformClick();
         }
 
         private int[] SortIntegers(int n)
@@ -93,7 +98,7 @@ namespace BlackJack
         {
             // Deal a new hand
             // Clear table of cards
-            picDealer1.Image = null;
+           // picDealer1.Image = null;
             picDealer2.Image = null;
             picDealer3.Image = null;
             picDealer4.Image = null;
@@ -120,8 +125,8 @@ namespace BlackJack
             scoreDealer = 0;
             acesDealer = 0;
             numberCardsDealer = 0;
-            AddDealerCard();
-            AddDealerCard();
+          //  AddDealerCard();
+          //  AddDealerCard();
             // Get two player cards
             scorePlayer = 0;
             acesPlayer = 0;
@@ -247,6 +252,8 @@ namespace BlackJack
 
         private void btnHit_Click(object sender, EventArgs e)
         {
+            
+            
             // Add a card if player requests
             AddPlayerCard();
             if (scorePlayer > 21)
