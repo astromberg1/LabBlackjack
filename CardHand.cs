@@ -6,50 +6,45 @@ using System.Threading.Tasks;
 
 namespace BlackJack
     {
-
-    class CardHand
+    public class cardHand
         {
         const int BESTHAND = 21;
         private int nrOfAces;
         public List<int> valueList { get; set; }
 
+        public int BestHandvalue { get; set; }
+
+        public bool Above21 { get; set; }
+        public bool Equal21 { get; set; }
+
+        public bool Atleast17 { get; set; }
 
         public List<Card> Cards { get; set; }
 
-/*
-        public List<int> GetBJHandValue2()
+        // private List<Card> Cards = new List<Card>();
+
+        public cardHand()
             {
-            List<int> temp = new List<int>();
-            if (Cards.Count>0)
-           { 
+            this.Cards = new List<Card>();
+            this.valueList = new List<int>();
+            }
 
-            int i = 0;
-                int j = 0;
-                bool running = true;
-                temp.Add(0);
-                int sum = 0;
-                int sumantal = 1;
-            while (running)
-                {
-                 j = j + 1;
-                if (Cards[j].CardValue==1)
-                        {if (sumantal<2)
-                        temp.Add(0);
-                        sumantal = sumantal + 1;
-                            temp[0] = temp[0] + Cards[j].CardBJValue[0];
-                            temp[1] = temp[1] + Cards[j].CardBJValue[1];    
-
-                        else
-                        temp.Add(0);
-                        temp.Add(0);
-                        sumantal = sumantal + 1;
-                        }
-
-                    }
-
+        public void AddCard(Card card)
+            {
+            Cards.Add(card);
 
             }
-*/
+
+        public List<Card> GetCardhand()
+            {
+            return Cards;
+
+            }
+
+
+
+
+
 
         public List<int> GetBJHandValue()
             {
@@ -65,7 +60,7 @@ namespace BlackJack
                     if (item.CardValue == 1)//Ace
                         nrOfAces++;
                     else
-                        sumExAce = sumExAce + item.CardValue;
+                        sumExAce = sumExAce + item.CardBJValue;
                     }
                 switch (nrOfAces)
                     {
@@ -77,14 +72,11 @@ namespace BlackJack
 
                     case 1:
                             {
-                            int sum = 0;
-                            int sum1 = 0;
+                            
+                            int sum = sumExAce+1;
+                            int sum1 = sumExAce+11;
 
-                            foreach (var item in Cards)
-                                {
-                                sum = sum + item.CardBJValue[0];
-                                sum1 = sum1 + item.CardBJValue[1];
-                                }
+                            
                             temp.Add(sum);
                             temp.Add(sum1);
                             }
@@ -153,11 +145,13 @@ namespace BlackJack
             int i = 0;
             int max = 0;
             int maxnr = 0;
+            int maxv = 0;
+            var gl = GetBJHandValue();
 
             foreach (var item in valueList)
                 {
                 i++;
-                 if (item <= BESTHAND)
+                if (item <= BESTHAND)
                     {
                     if (item > max)
                         {
@@ -165,14 +159,60 @@ namespace BlackJack
                         maxnr = i;
 
                         }
-
                     }
+                else
+                    maxv = item;
                 }
 
-            return max;
+
+            if (max == 0)
+                Above21 = true;
+            else
+                Above21 = false;
+            if (max >= 17)
+                Atleast17 = true;
+            else
+                Atleast17 = false;
+            if (max == BESTHAND)
+                Equal21 = true;
+            else
+                Equal21 = false;
+
+
+
+            if (!Above21)
+                {
+
+                BestHandvalue = max;
+                return max;
+                }
+            else
+                {
+                BestHandvalue = maxv;
+                return maxv;
+                }
+
             }
 
+        public void ThrowHand()
+            {
+            Cards.Clear();
+            }
+
+        public int CountCards()
+            {
+            return Cards.Count();
+            }
+
+        public bool HasFive()
+            {
+            return (Cards.Count() > 4);
+            }
         }
+
+
+
+
     }
 
-        
+

@@ -18,6 +18,7 @@ namespace BlackJack
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new BlackJack.frmBlackJack());
 
+           //test
             
             //card2 = (Card) card.Clone();
 

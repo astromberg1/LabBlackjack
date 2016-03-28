@@ -6,23 +6,39 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    class Deck
+   public class Deck
     {
         Random random = new Random();
+        private bool deck_init;
         public List<Card> Cards { get; set; }
+        public List<Card> CopyCards { get; set; }
+
+        
+
         //private List<Card> Cards = new List<Card>();
-     
+
 
         public Deck()
         {
             this.Cards = new List<Card>();
+            this.CopyCards = new List<Card>();
             init();
             
         }
 
+        public void ReSetCards()
+            {
+            if (deck_init)
+                {
+                Cards.Clear();
+                Cards.AddRange(CopyCards);
+                }
+            }
+
 
         public void init()
         {
+            Cards.Clear();
             int kortrek = 0;
             for (int i = 0; i < 4; i++)
                 {
@@ -34,8 +50,11 @@ namespace BlackJack
                    
                 }
             }
-          
-        }
+            CopyCards.Clear();
+            CopyCards.AddRange(Cards);
+            deck_init = true;
+
+            }
 
 
 

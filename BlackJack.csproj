@@ -60,6 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Blackjack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,13 +75,8 @@
     <Compile Include="Card.cs" />
     <Compile Include="CardHand.cs" />
     <Compile Include="CardRound.cs" />
-    <Compile Include="ComputerPlayer.cs" />
-    <Compile Include="Deal.cs" />
-    <Compile Include="Dealer.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="HumanPlayer.cs" />
-    <Compile Include="ImageHandler.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +90,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Blackjack.resx">
       <DependentUpon>Blackjack.cs</DependentUpon>
     </EmbeddedResource>

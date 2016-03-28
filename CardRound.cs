@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
     {
-    class CardRound
+ public   class CardRound
         {
         public int RoundNo { get; set; }
         public void Deal()
@@ -14,10 +14,13 @@ namespace BlackJack
             RoundNo++;
             if (RoundNo==1)
                 {//
-
+                //deal 2 cards
 
                 }
+            else
+                {//deal 1 card to players
 
+                }
 
             }
 

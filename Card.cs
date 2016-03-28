@@ -34,10 +34,10 @@ namespace BlackJack
         Queen,
         King,
         }
-    class Card
+  public  class Card
     {
-        const string FILEPATH = @"C:\Cards\";
-        public int[] CardBJValue { get; set; }
+        const string FILEPATH = @"C:\BlackJack\";
+        public int CardBJValue { get; set; }
         public int CardValue { get; set; }
         //public string Suit { get; set; }
 
@@ -57,14 +57,10 @@ namespace BlackJack
             //set { CardName = value; }
         }
 
-        public Card()
-        {
-            var CardBJValue = new int[2];
-       
-        }
+        
         public Card(int suit, int cardValue)
         {
-            var CardBJValue = new int[2];
+            
             this.CardValue = cardValue;
             this.Suit = (Suit) suit;
             this.Face = (Face) cardValue;
@@ -96,22 +92,26 @@ namespace BlackJack
 
             if (cardValue == 1)
                 {
-                CardBJValue[0] = 1;
-                CardBJValue[1] = 11;
+               
+                CardBJValue = 11;
                 }
             else if (cardValue < 11)
                 {
-                CardBJValue[0] = cardValue;
-                CardBJValue[1] = cardValue;
+                CardBJValue = cardValue;
+                
                 }
             else
                 {
-                CardBJValue[0] = 10;
-                CardBJValue[1] = 10;
+                CardBJValue = 10;
+                
                 }
 
 
 
+            }
+
+        public Card()
+            {
             }
 
         public object Clone() //Function som används vid Fusk
