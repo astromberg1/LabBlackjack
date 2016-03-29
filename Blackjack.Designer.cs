@@ -32,9 +32,6 @@
             this.picDealer1 = new System.Windows.Forms.PictureBox();
             this.picDealer2 = new System.Windows.Forms.PictureBox();
             this.picDealer3 = new System.Windows.Forms.PictureBox();
-            this.picDealer4 = new System.Windows.Forms.PictureBox();
-            this.picDealer5 = new System.Windows.Forms.PictureBox();
-            this.picDealer6 = new System.Windows.Forms.PictureBox();
             this.picPlayer6 = new System.Windows.Forms.PictureBox();
             this.picPlayer5 = new System.Windows.Forms.PictureBox();
             this.picPlayer4 = new System.Windows.Forms.PictureBox();
@@ -93,12 +90,15 @@
             this.lblComputerWinnings = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnNewRound = new System.Windows.Forms.Button();
+            this.picDealer6 = new System.Windows.Forms.PictureBox();
+            this.picDealer5 = new System.Windows.Forms.PictureBox();
+            this.picDealer4 = new System.Windows.Forms.PictureBox();
+            this.picDealer7 = new System.Windows.Forms.PictureBox();
+            this.picPlayer7 = new System.Windows.Forms.PictureBox();
+            this.picComputer7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
@@ -112,6 +112,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -138,6 +144,7 @@
             // 
             // picDealer1
             // 
+            this.picDealer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
             this.picDealer1.Location = new System.Drawing.Point(13, 57);
             this.picDealer1.Name = "picDealer1";
             this.picDealer1.Size = new System.Drawing.Size(85, 120);
@@ -166,42 +173,9 @@
             this.picDealer3.TabStop = false;
             this.picDealer3.UseWaitCursor = true;
             // 
-            // picDealer4
-            // 
-            this.picDealer4.Image = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer4.Location = new System.Drawing.Point(289, 57);
-            this.picDealer4.Name = "picDealer4";
-            this.picDealer4.Size = new System.Drawing.Size(85, 120);
-            this.picDealer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer4.TabIndex = 9;
-            this.picDealer4.TabStop = false;
-            this.picDealer4.UseWaitCursor = true;
-            this.picDealer4.Click += new System.EventHandler(this.picDealer4_Click);
-            // 
-            // picDealer5
-            // 
-            this.picDealer5.Image = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer5.Location = new System.Drawing.Point(381, 57);
-            this.picDealer5.Name = "picDealer5";
-            this.picDealer5.Size = new System.Drawing.Size(85, 120);
-            this.picDealer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer5.TabIndex = 10;
-            this.picDealer5.TabStop = false;
-            this.picDealer5.UseWaitCursor = true;
-            // 
-            // picDealer6
-            // 
-            this.picDealer6.Image = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer6.Location = new System.Drawing.Point(475, 57);
-            this.picDealer6.Name = "picDealer6";
-            this.picDealer6.Size = new System.Drawing.Size(85, 120);
-            this.picDealer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer6.TabIndex = 11;
-            this.picDealer6.TabStop = false;
-            this.picDealer6.UseWaitCursor = true;
-            // 
             // picPlayer6
             // 
+            this.picPlayer6.InitialImage = global::BlackJack.Properties.Resources.CARD0;
             this.picPlayer6.Location = new System.Drawing.Point(475, 216);
             this.picPlayer6.Name = "picPlayer6";
             this.picPlayer6.Size = new System.Drawing.Size(85, 120);
@@ -484,6 +458,7 @@
             // 
             // picComputer1
             // 
+            this.picComputer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
             this.picComputer1.Location = new System.Drawing.Point(13, 453);
             this.picComputer1.Name = "picComputer1";
             this.picComputer1.Size = new System.Drawing.Size(85, 120);
@@ -794,10 +769,76 @@
             this.btnNewRound.UseVisualStyleBackColor = false;
             this.btnNewRound.Click += new System.EventHandler(this.btnNewRound_Click);
             // 
+            // picDealer6
+            // 
+            this.picDealer6.ErrorImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer6.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer6.Location = new System.Drawing.Point(475, 57);
+            this.picDealer6.Name = "picDealer6";
+            this.picDealer6.Size = new System.Drawing.Size(85, 120);
+            this.picDealer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer6.TabIndex = 66;
+            this.picDealer6.TabStop = false;
+            // 
+            // picDealer5
+            // 
+            this.picDealer5.Location = new System.Drawing.Point(380, 57);
+            this.picDealer5.Name = "picDealer5";
+            this.picDealer5.Size = new System.Drawing.Size(85, 120);
+            this.picDealer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer5.TabIndex = 65;
+            this.picDealer5.TabStop = false;
+            this.picDealer5.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // picDealer4
+            // 
+            this.picDealer4.Location = new System.Drawing.Point(289, 57);
+            this.picDealer4.Name = "picDealer4";
+            this.picDealer4.Size = new System.Drawing.Size(85, 120);
+            this.picDealer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer4.TabIndex = 64;
+            this.picDealer4.TabStop = false;
+            // 
+            // picDealer7
+            // 
+            this.picDealer7.ErrorImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer7.Location = new System.Drawing.Point(565, 57);
+            this.picDealer7.Name = "picDealer7";
+            this.picDealer7.Size = new System.Drawing.Size(85, 120);
+            this.picDealer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer7.TabIndex = 67;
+            this.picDealer7.TabStop = false;
+            // 
+            // picPlayer7
+            // 
+            this.picPlayer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picPlayer7.Location = new System.Drawing.Point(565, 216);
+            this.picPlayer7.Name = "picPlayer7";
+            this.picPlayer7.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer7.TabIndex = 68;
+            this.picPlayer7.TabStop = false;
+            // 
+            // picComputer7
+            // 
+            this.picComputer7.Location = new System.Drawing.Point(565, 453);
+            this.picComputer7.Name = "picComputer7";
+            this.picComputer7.Size = new System.Drawing.Size(85, 120);
+            this.picComputer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer7.TabIndex = 69;
+            this.picComputer7.TabStop = false;
+            // 
             // frmBlackJack
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(885, 689);
+            this.Controls.Add(this.picComputer7);
+            this.Controls.Add(this.picPlayer7);
+            this.Controls.Add(this.picDealer7);
+            this.Controls.Add(this.picDealer6);
+            this.Controls.Add(this.picDealer5);
+            this.Controls.Add(this.picDealer4);
             this.Controls.Add(this.picComputer6);
             this.Controls.Add(this.picComputer5);
             this.Controls.Add(this.picComputer4);
@@ -810,9 +851,6 @@
             this.Controls.Add(this.picPlayer3);
             this.Controls.Add(this.picPlayer2);
             this.Controls.Add(this.picPlayer1);
-            this.Controls.Add(this.picDealer6);
-            this.Controls.Add(this.picDealer5);
-            this.Controls.Add(this.picDealer4);
             this.Controls.Add(this.picDealer3);
             this.Controls.Add(this.picDealer2);
             this.Controls.Add(this.picDealer1);
@@ -861,9 +899,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
@@ -878,6 +913,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -890,9 +931,6 @@
         public System.Windows.Forms.PictureBox picDealer1;
         public System.Windows.Forms.PictureBox picDealer2;
         public System.Windows.Forms.PictureBox picDealer3;
-        public System.Windows.Forms.PictureBox picDealer4;
-        public System.Windows.Forms.PictureBox picDealer5;
-        public System.Windows.Forms.PictureBox picDealer6;
         public System.Windows.Forms.PictureBox picPlayer6;
         public System.Windows.Forms.PictureBox picPlayer5;
         public System.Windows.Forms.PictureBox picPlayer4;
@@ -951,6 +989,12 @@
         public System.Windows.Forms.Label lblComputerWinnings;
         public System.Windows.Forms.Label label6;
         public System.Windows.Forms.Button btnNewRound;
+        public System.Windows.Forms.PictureBox picDealer6;
+        public System.Windows.Forms.PictureBox picDealer5;
+        public System.Windows.Forms.PictureBox picDealer4;
+        public System.Windows.Forms.PictureBox picDealer7;
+        public System.Windows.Forms.PictureBox picPlayer7;
+        public System.Windows.Forms.PictureBox picComputer7;
         }
 }
 

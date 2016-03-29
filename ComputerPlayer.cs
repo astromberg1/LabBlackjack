@@ -8,5 +8,8 @@ namespace BlackJack
     {
     class ComputerPlayer:Player
         {
+        Random rnd = new Random();
+
+
         }
     }

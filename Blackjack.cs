@@ -165,7 +165,7 @@ namespace BlackJack
             else if (gm.Players[1].Cardhand.CountCards() == 6)
                 picPlayer6.Image = gm.Players[1].Cardhand.Cards[5].CardFace;
             else if (gm.Players[1].Cardhand.CountCards() == 7)
-                //picPlayer7.Image = gm.Players[1].Cardhand.Cards[7].CardFace;
+                picPlayer7.Image = gm.Players[1].Cardhand.Cards[7].CardFace;
 
 
             this.Refresh();
@@ -210,7 +210,7 @@ namespace BlackJack
 
             do
                 {
-                Thread.Sleep(900);
+                Thread.Sleep(1000);
                 if ((gm.Players[2].Cardhand.Atleast17))
                     {
                     gm.Players[2].Stands = true;
@@ -232,7 +232,7 @@ namespace BlackJack
                     else if (gm.Players[2].Cardhand.CountCards() == 6)
                         picComputer6.Image = gm.Players[2].Cardhand.Cards[5].CardFace;
                     else if (gm.Players[2].Cardhand.CountCards() == 7)
-                  //      picComputer7.Image = gm.Players[2].Cardhand.Cards[7].CardFace;
+                        picComputer7.Image = gm.Players[2].Cardhand.Cards[7].CardFace;
 
                     // picComputer3.Image = gm.Players[2].Cardhand.Cards[3].CardFace;
                     // picComputer3.Visible = true;
@@ -252,7 +252,7 @@ namespace BlackJack
                     else if (gm.Players[2].Cardhand.CountCards() == 6)
                         picComputer6.Image = gm.Players[2].Cardhand.Cards[5].CardFace;
                     else if (gm.Players[2].Cardhand.CountCards() == 7)
-                    //    picComputer7.Image = gm.Players[2].Cardhand.Cards[7].CardFace;
+                        picComputer7.Image = gm.Players[2].Cardhand.Cards[7].CardFace;
                     this.Refresh();
                     Application.DoEvents();
 
@@ -283,7 +283,7 @@ namespace BlackJack
 
         public void Dealerplays()
             {
-            Thread.Sleep(700);
+            Thread.Sleep(500);
             System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\cardPlace1.wav");
             picDealer1.Image = gm.Players[0].Cardhand.Cards[0].CardFace;
             startSoundPlayer.Play();
@@ -333,77 +333,35 @@ namespace BlackJack
 
                             picDealer3.Image = gm.Players[0].Cardhand.Cards[2].CardFace;
 
-                        else if (gm.Players[2].Cardhand.CountCards() == 4)
+                        else if (gm.Players[0].Cardhand.CountCards() == 4)
                             {
+                        
                             picDealer4.Image = gm.Players[0].Cardhand.Cards[3].CardFace;
-                            Refresh();
-                            picDealer4.BringToFront();
-                            picDealer4.Refresh();
-                            picComputer4.Show();
                             }
-                        else if (gm.Players[2].Cardhand.CountCards() == 5)
+                        else if (gm.Players[0].Cardhand.CountCards() == 5)
                             {
+                            
                             picDealer5.Image = gm.Players[0].Cardhand.Cards[4].CardFace;
-                            picDealer5.BringToFront();
-                            picDealer5.Refresh();
-                            picDealer5.Show();
                             }
-                        else if (gm.Players[2].Cardhand.CountCards() == 6)
+                        else if (gm.Players[0].Cardhand.CountCards() == 6)
                             {
                             picDealer6.Image = gm.Players[0].Cardhand.Cards[5].CardFace;
-                            picDealer6.BringToFront();
-                            picDealer6.Refresh();
                             }
-                        else if (gm.Players[2].Cardhand.CountCards() == 7)
-                            //      picDealer7.Image = gm.Players[0].Cardhand.Cards[7].CardFace;
+                        else if (gm.Players[0].Cardhand.CountCards() == 7)
+                                picDealer7.Image = gm.Players[0].Cardhand.Cards[7].CardFace;
 
                             // picComputer3.Image = gm.Players[2].Cardhand.Cards[3].CardFace;
                             // picComputer3.Visible = true;
-                            this.Refresh();
+                        
                         gm.Players[0].Cardhand.Getbesthandvalue();
                         lblDlCardPoints.Text = gm.Players[0].Cardhand.BestHandvalue.ToString();
 
                         this.Refresh();
                         Application.DoEvents();
 
-                        if (gm.Players[0].Cardhand.CountCards() == 3)
+}
 
-                            picDealer3.Image = gm.Players[0].Cardhand.Cards[2].CardFace;
-
-                        else if (gm.Players[2].Cardhand.CountCards() == 4)
-                            {
-                            picDealer4.Image = gm.Players[0].Cardhand.Cards[3].CardFace;
-                            Refresh();
-                            picDealer4.BringToFront();
-                            picDealer4.Refresh();
-                            picComputer4.Show();
-                            }
-                        else if (gm.Players[2].Cardhand.CountCards() == 5)
-                            {
-                            picDealer5.Image = gm.Players[0].Cardhand.Cards[4].CardFace;
-                            picDealer5.BringToFront();
-                            picDealer5.Refresh();
-                            picDealer5.Show();
-                            }
-                        else if (gm.Players[2].Cardhand.CountCards() == 6)
-                            {
-                            picDealer6.Image = gm.Players[0].Cardhand.Cards[5].CardFace;
-                            picDealer6.BringToFront();
-                            picDealer6.Refresh();
-                            }
-                        else if (gm.Players[2].Cardhand.CountCards() == 7)
-                            //      picDealer7.Image = gm.Players[0].Cardhand.Cards[7].CardFace;
-
-                            // picComputer3.Image = gm.Players[2].Cardhand.Cards[3].CardFace;
-                            // picComputer3.Visible = true;
-                            this.Refresh();
-
-
-                        }
-
-                    this.Refresh();
-                    Application.DoEvents();
-
+                    
                     if (gm.Players[0].Cardhand.Above21)
                         {
                         gm.Players[0].Busted = true;
@@ -678,7 +636,7 @@ namespace BlackJack
             picDealer4.Image = null;
             picDealer5.Image = null;
             picDealer6.Image = null;
-            //picDealer7.Image = null;
+            picDealer7.Image = null;
 
             picPlayer1.Image = null;
             picPlayer2.Image = null;
@@ -686,7 +644,7 @@ namespace BlackJack
             picPlayer4.Image = null;
             picPlayer5.Image = null;
             picPlayer6.Image = null;
-            //picPlayer7.Image = null;
+            picPlayer7.Image = null;
 
             picComputer1.Image = null;
             picComputer2.Image = null;
@@ -694,7 +652,7 @@ namespace BlackJack
             picComputer4.Image = null;
             picComputer5.Image = null;
             picComputer6.Image = null;
-            //picComputer7.Image = null;
+            picComputer7.Image = null;
             this.NewRound();
             }
 
@@ -885,6 +843,11 @@ namespace BlackJack
             }
 
         private void picDealer4_Click(object sender, EventArgs e)
+            {
+
+            }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
             {
 
             }
