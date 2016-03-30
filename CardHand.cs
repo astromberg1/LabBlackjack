@@ -147,22 +147,23 @@ namespace BlackJack
             int maxnr = 0;
             int maxv = 0;
             var gl = GetBJHandValue();
+                
 
             foreach (var item in valueList)
-                {
+            {
                 i++;
                 if (item <= BESTHAND)
-                    {
+                {
                     if (item > max)
-                        {
+                    {
                         max = item;
                         maxnr = i;
 
-                        }
                     }
+                }
                 else
                     maxv = item;
-                }
+            }
 
 
             if (max == 0)

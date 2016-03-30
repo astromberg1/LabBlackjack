@@ -76,12 +76,12 @@ namespace BlackJack
             {
             if (Cards.Count <= 0) //Kortleken utdelad...
                 {
-                this.init();
+                this.ReSetCards();
                 this.Shuffle();
                 }
 
             Card cardToReturn = Cards[Cards.Count - 1];
-            Cards.RemoveAt(Cards.Count - 1);
+            Cards.Remove(cardToReturn);
             return cardToReturn;
             }
 

@@ -181,6 +181,7 @@ namespace BlackJack
                 {
                 gm.Players[1].Busted = true;
                 lblPlayerComment.Text = " You are Busted!";
+                
                 btnHit.Visible = false;
                 Stay_click();
 
@@ -196,12 +197,14 @@ namespace BlackJack
             else
                 lblPlayerComment.Text = " You have " + lblYouCardPoints.Text;
 
+            Refresh();
+            Thread.Sleep(700);
 
 
             }
 
 
-
+        
 
 
         public void Computerplays()
