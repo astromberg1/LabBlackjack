@@ -145,7 +145,9 @@ namespace BlackJack
 
             this.Refresh();
             Application.DoEvents();
-
+            Thread.Sleep(800);
+            if (gm.Players[1].Cardhand.Equal21)
+                Stay_click();
             }
 
 
