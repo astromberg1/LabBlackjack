@@ -636,16 +636,6 @@ namespace BlackJack.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
-        /// </summary>
-        public static System.Drawing.Point mnuMain_TrayLocation {
-            get {
-                object obj = ResourceManager.GetObject("mnuMain.TrayLocation", resourceCulture);
-                return ((System.Drawing.Point)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         public static System.IO.UnmanagedMemoryStream tada {
