@@ -118,13 +118,196 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CARD0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD0.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="th" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\th.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CARD0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CARD0.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CARD00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD001.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD011.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD021.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD031.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD041.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD051.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD061.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD071.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD081.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD091.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD101.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD111.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD121.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD131.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD141.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD151.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD161.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD171.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD181.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD191.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD201.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD211.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD221.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD231.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD241.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD251.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD261.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD271.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD281.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD291.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD301.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD311.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD321.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD331.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD341.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD351.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD361.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD371.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD381.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD391.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD401.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD411.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD421.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD431.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD441.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD451.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD461.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD471.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD481.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD491.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD501.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARD51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARD511.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardback1.WMF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applause.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardPlace1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardPlace1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardShuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardShuffle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chipLay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chipLay3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CHORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHORD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drum_roll_y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drum_roll_y.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TADA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TADA.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -117,10 +117,193 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mnuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuMain.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>42</value>
-  </metadata>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="applause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>applause.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>boo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD00.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD01.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD02.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD03.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD04.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD05.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD06.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD07.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD08.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD09.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD10.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD11.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD12.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD13.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD14.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD15.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD16.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD17.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD18.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD19.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD20.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD21.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD22.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD23.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD24.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD25.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD26.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD27.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD28.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD29.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD30.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD31.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD32.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD33.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD34.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD35.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD36.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD37.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD38.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD39.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD40.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD41.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD42.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD43.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD44.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD45.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD46.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD47.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD48.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD49.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD50.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARD51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CARD51.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>cardback.WMF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardPlace1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>cardPlace1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cardShuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>cardShuffle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chipLay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>chipLay3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>tada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tamburo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Tamburo.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -98,6 +98,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Blackjack.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Blackjack.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -110,13 +115,15 @@
       <DependentUpon>Blackjack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Blackjack.resx" />
+    <EmbeddedResource Include="Resources\Blackjack.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Blackjack.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="BlackJack_TemporaryKey.pfx" />
     <None Include="Resources\th.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -138,6 +145,183 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Cards\CARD00.WMF" />
+    <Content Include="Cards\CARD01.WMF" />
+    <Content Include="Cards\CARD02.WMF" />
+    <Content Include="Cards\CARD03.WMF" />
+    <Content Include="Cards\CARD04.WMF" />
+    <Content Include="Cards\CARD05.WMF" />
+    <Content Include="Cards\CARD06.WMF" />
+    <Content Include="Cards\CARD07.WMF" />
+    <Content Include="Cards\CARD08.WMF" />
+    <Content Include="Cards\CARD09.WMF" />
+    <Content Include="Cards\CARD10.WMF" />
+    <Content Include="Cards\CARD11.WMF" />
+    <Content Include="Cards\CARD12.WMF" />
+    <Content Include="Cards\CARD13.WMF" />
+    <Content Include="Cards\CARD14.WMF" />
+    <Content Include="Cards\CARD15.WMF" />
+    <Content Include="Cards\CARD16.WMF" />
+    <Content Include="Cards\CARD17.WMF" />
+    <Content Include="Cards\CARD18.WMF" />
+    <Content Include="Cards\CARD19.WMF" />
+    <Content Include="Cards\CARD20.WMF" />
+    <Content Include="Cards\CARD21.WMF" />
+    <Content Include="Cards\CARD22.WMF" />
+    <Content Include="Cards\CARD23.WMF" />
+    <Content Include="Cards\CARD24.WMF" />
+    <Content Include="Cards\CARD25.WMF" />
+    <Content Include="Cards\CARD26.WMF" />
+    <Content Include="Cards\CARD27.WMF" />
+    <Content Include="Cards\CARD28.WMF" />
+    <Content Include="Cards\CARD29.WMF" />
+    <Content Include="Cards\CARD30.WMF" />
+    <Content Include="Cards\CARD31.WMF" />
+    <Content Include="Cards\CARD32.WMF" />
+    <Content Include="Cards\CARD33.WMF" />
+    <Content Include="Cards\CARD34.WMF" />
+    <Content Include="Cards\CARD35.WMF" />
+    <Content Include="Cards\CARD36.WMF" />
+    <Content Include="Cards\CARD37.WMF" />
+    <Content Include="Cards\CARD38.WMF" />
+    <Content Include="Cards\CARD39.WMF" />
+    <Content Include="Cards\CARD40.WMF" />
+    <Content Include="Cards\CARD41.WMF" />
+    <Content Include="Cards\CARD42.WMF" />
+    <Content Include="Cards\CARD43.WMF" />
+    <Content Include="Cards\CARD44.WMF" />
+    <Content Include="Cards\CARD45.WMF" />
+    <Content Include="Cards\CARD46.WMF" />
+    <Content Include="Cards\CARD47.WMF" />
+    <Content Include="Cards\CARD48.WMF" />
+    <Content Include="Cards\CARD49.WMF" />
+    <Content Include="Cards\CARD50.WMF" />
+    <Content Include="Cards\CARD51.WMF" />
+    <Content Include="Cards\cardback.WMF" />
+    <None Include="Resources\TADA.WAV" />
+    <None Include="Resources\CHORD.WAV" />
+    <None Include="Resources\drum_roll_y.wav" />
+    <None Include="Resources\chipLay3.wav" />
+    <None Include="Resources\cardShuffle.wav" />
+    <None Include="Resources\cardPlace1.wav" />
+    <None Include="Resources\boo.wav" />
+    <None Include="Resources\applause.wav" />
+    <Content Include="Sounds\applause.wav" />
+    <Content Include="Sounds\boo.wav" />
+    <Content Include="Sounds\cardPlace1.wav" />
+    <Content Include="Sounds\cardShuffle.wav" />
+    <Content Include="Sounds\chipLay3.wav" />
+    <Content Include="Sounds\Tamburo.mp3" />
+    <None Include="Resources\Tamburo.mp3" />
+    <None Include="Resources\cardback1.WMF" />
+    <None Include="Resources\CARD511.WMF" />
+    <None Include="Resources\CARD501.WMF" />
+    <None Include="Resources\CARD491.WMF" />
+    <None Include="Resources\CARD481.WMF" />
+    <None Include="Resources\CARD471.WMF" />
+    <None Include="Resources\CARD461.WMF" />
+    <None Include="Resources\CARD451.WMF" />
+    <None Include="Resources\CARD441.WMF" />
+    <None Include="Resources\CARD431.WMF" />
+    <None Include="Resources\CARD421.WMF" />
+    <None Include="Resources\CARD411.WMF" />
+    <None Include="Resources\CARD401.WMF" />
+    <None Include="Resources\CARD391.WMF" />
+    <None Include="Resources\CARD381.WMF" />
+    <None Include="Resources\CARD371.WMF" />
+    <None Include="Resources\CARD361.WMF" />
+    <None Include="Resources\CARD351.WMF" />
+    <None Include="Resources\CARD341.WMF" />
+    <None Include="Resources\CARD331.WMF" />
+    <None Include="Resources\CARD321.WMF" />
+    <None Include="Resources\CARD311.WMF" />
+    <None Include="Resources\CARD301.WMF" />
+    <None Include="Resources\CARD291.WMF" />
+    <None Include="Resources\CARD281.WMF" />
+    <None Include="Resources\CARD271.WMF" />
+    <None Include="Resources\CARD261.WMF" />
+    <None Include="Resources\CARD251.WMF" />
+    <None Include="Resources\CARD241.WMF" />
+    <None Include="Resources\CARD231.WMF" />
+    <None Include="Resources\CARD221.WMF" />
+    <None Include="Resources\CARD211.WMF" />
+    <None Include="Resources\CARD201.WMF" />
+    <None Include="Resources\CARD191.WMF" />
+    <None Include="Resources\CARD181.WMF" />
+    <None Include="Resources\CARD171.WMF" />
+    <None Include="Resources\CARD161.WMF" />
+    <None Include="Resources\CARD151.WMF" />
+    <None Include="Resources\CARD141.WMF" />
+    <None Include="Resources\CARD131.WMF" />
+    <None Include="Resources\CARD121.WMF" />
+    <None Include="Resources\CARD111.WMF" />
+    <None Include="Resources\CARD101.WMF" />
+    <None Include="Resources\CARD091.WMF" />
+    <None Include="Resources\CARD081.WMF" />
+    <None Include="Resources\CARD071.WMF" />
+    <None Include="Resources\CARD061.WMF" />
+    <None Include="Resources\CARD051.WMF" />
+    <None Include="Resources\CARD041.WMF" />
+    <None Include="Resources\CARD031.WMF" />
+    <None Include="Resources\CARD021.WMF" />
+    <None Include="Resources\CARD011.WMF" />
+    <None Include="Resources\CARD001.WMF" />
+    <None Include="Resources\cardback.WMF" />
+    <None Include="Resources\CARD51.WMF" />
+    <None Include="Resources\CARD50.WMF" />
+    <None Include="Resources\CARD49.WMF" />
+    <None Include="Resources\CARD48.WMF" />
+    <None Include="Resources\CARD47.WMF" />
+    <None Include="Resources\CARD46.WMF" />
+    <None Include="Resources\CARD45.WMF" />
+    <None Include="Resources\CARD44.WMF" />
+    <None Include="Resources\CARD43.WMF" />
+    <None Include="Resources\CARD42.WMF" />
+    <None Include="Resources\CARD41.WMF" />
+    <None Include="Resources\CARD40.WMF" />
+    <None Include="Resources\CARD39.WMF" />
+    <None Include="Resources\CARD38.WMF" />
+    <None Include="Resources\CARD37.WMF" />
+    <None Include="Resources\CARD36.WMF" />
+    <None Include="Resources\CARD35.WMF" />
+    <None Include="Resources\CARD34.WMF" />
+    <None Include="Resources\CARD33.WMF" />
+    <None Include="Resources\CARD32.WMF" />
+    <None Include="Resources\CARD31.WMF" />
+    <None Include="Resources\CARD30.WMF" />
+    <None Include="Resources\CARD29.WMF" />
+    <None Include="Resources\CARD28.WMF" />
+    <None Include="Resources\CARD27.WMF" />
+    <None Include="Resources\CARD26.WMF" />
+    <None Include="Resources\CARD25.WMF" />
+    <None Include="Resources\CARD24.WMF" />
+    <None Include="Resources\CARD23.WMF" />
+    <None Include="Resources\CARD22.WMF" />
+    <None Include="Resources\CARD21.WMF" />
+    <None Include="Resources\CARD20.WMF" />
+    <None Include="Resources\CARD19.WMF" />
+    <None Include="Resources\CARD18.WMF" />
+    <None Include="Resources\CARD17.WMF" />
+    <None Include="Resources\CARD16.WMF" />
+    <None Include="Resources\CARD15.WMF" />
+    <None Include="Resources\CARD14.WMF" />
+    <None Include="Resources\CARD13.WMF" />
+    <None Include="Resources\CARD12.WMF" />
+    <None Include="Resources\CARD11.WMF" />
+    <None Include="Resources\CARD10.WMF" />
+    <None Include="Resources\CARD09.WMF" />
+    <None Include="Resources\CARD08.WMF" />
+    <None Include="Resources\CARD07.WMF" />
+    <None Include="Resources\CARD06.WMF" />
+    <None Include="Resources\CARD05.WMF" />
+    <None Include="Resources\CARD04.WMF" />
+    <None Include="Resources\CARD03.WMF" />
+    <None Include="Resources\CARD02.WMF" />
+    <None Include="Resources\CARD01.WMF" />
+    <None Include="Resources\CARD00.WMF" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

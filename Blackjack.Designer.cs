@@ -27,17 +27,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.lblDealerComment = new System.Windows.Forms.Label();
-            this.picDealer1 = new System.Windows.Forms.PictureBox();
-            this.picDealer2 = new System.Windows.Forms.PictureBox();
-            this.picDealer3 = new System.Windows.Forms.PictureBox();
-            this.picPlayer6 = new System.Windows.Forms.PictureBox();
-            this.picPlayer5 = new System.Windows.Forms.PictureBox();
-            this.picPlayer4 = new System.Windows.Forms.PictureBox();
-            this.picPlayer3 = new System.Windows.Forms.PictureBox();
-            this.picPlayer2 = new System.Windows.Forms.PictureBox();
-            this.picPlayer1 = new System.Windows.Forms.PictureBox();
             this.lblPlayerComment = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnHit = new System.Windows.Forms.Button();
@@ -58,12 +50,6 @@
             this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lab2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.picComputer6 = new System.Windows.Forms.PictureBox();
-            this.picComputer5 = new System.Windows.Forms.PictureBox();
-            this.picComputer4 = new System.Windows.Forms.PictureBox();
-            this.picComputer3 = new System.Windows.Forms.PictureBox();
-            this.picComputer2 = new System.Windows.Forms.PictureBox();
-            this.picComputer1 = new System.Windows.Forms.PictureBox();
             this.lblComputerComment = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblYouBalance = new System.Windows.Forms.Label();
@@ -90,34 +76,53 @@
             this.lblComputerWinnings = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnNewRound = new System.Windows.Forms.Button();
+            this.picComputer7 = new System.Windows.Forms.PictureBox();
+            this.picPlayer7 = new System.Windows.Forms.PictureBox();
+            this.picDealer7 = new System.Windows.Forms.PictureBox();
             this.picDealer6 = new System.Windows.Forms.PictureBox();
             this.picDealer5 = new System.Windows.Forms.PictureBox();
             this.picDealer4 = new System.Windows.Forms.PictureBox();
-            this.picDealer7 = new System.Windows.Forms.PictureBox();
-            this.picPlayer7 = new System.Windows.Forms.PictureBox();
-            this.picComputer7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
+            this.picComputer6 = new System.Windows.Forms.PictureBox();
+            this.picComputer5 = new System.Windows.Forms.PictureBox();
+            this.picComputer4 = new System.Windows.Forms.PictureBox();
+            this.picComputer3 = new System.Windows.Forms.PictureBox();
+            this.picComputer2 = new System.Windows.Forms.PictureBox();
+            this.picComputer1 = new System.Windows.Forms.PictureBox();
+            this.picPlayer6 = new System.Windows.Forms.PictureBox();
+            this.picPlayer5 = new System.Windows.Forms.PictureBox();
+            this.picPlayer4 = new System.Windows.Forms.PictureBox();
+            this.picPlayer3 = new System.Windows.Forms.PictureBox();
+            this.picPlayer2 = new System.Windows.Forms.PictureBox();
+            this.picPlayer1 = new System.Windows.Forms.PictureBox();
+            this.picDealer3 = new System.Windows.Forms.PictureBox();
+            this.picDealer2 = new System.Windows.Forms.PictureBox();
+            this.picDealer1 = new System.Windows.Forms.PictureBox();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.mnuMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -141,92 +146,6 @@
             this.lblDealerComment.Size = new System.Drawing.Size(558, 27);
             this.lblDealerComment.TabIndex = 5;
             this.lblDealerComment.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // picDealer1
-            // 
-            this.picDealer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer1.Location = new System.Drawing.Point(13, 57);
-            this.picDealer1.Name = "picDealer1";
-            this.picDealer1.Size = new System.Drawing.Size(85, 120);
-            this.picDealer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer1.TabIndex = 6;
-            this.picDealer1.TabStop = false;
-            this.picDealer1.UseWaitCursor = true;
-            // 
-            // picDealer2
-            // 
-            this.picDealer2.Location = new System.Drawing.Point(105, 57);
-            this.picDealer2.Name = "picDealer2";
-            this.picDealer2.Size = new System.Drawing.Size(85, 120);
-            this.picDealer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer2.TabIndex = 7;
-            this.picDealer2.TabStop = false;
-            this.picDealer2.UseWaitCursor = true;
-            // 
-            // picDealer3
-            // 
-            this.picDealer3.Location = new System.Drawing.Point(197, 57);
-            this.picDealer3.Name = "picDealer3";
-            this.picDealer3.Size = new System.Drawing.Size(85, 120);
-            this.picDealer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer3.TabIndex = 8;
-            this.picDealer3.TabStop = false;
-            this.picDealer3.UseWaitCursor = true;
-            // 
-            // picPlayer6
-            // 
-            this.picPlayer6.InitialImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picPlayer6.Location = new System.Drawing.Point(475, 216);
-            this.picPlayer6.Name = "picPlayer6";
-            this.picPlayer6.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer6.TabIndex = 19;
-            this.picPlayer6.TabStop = false;
-            // 
-            // picPlayer5
-            // 
-            this.picPlayer5.Location = new System.Drawing.Point(381, 216);
-            this.picPlayer5.Name = "picPlayer5";
-            this.picPlayer5.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer5.TabIndex = 18;
-            this.picPlayer5.TabStop = false;
-            // 
-            // picPlayer4
-            // 
-            this.picPlayer4.Location = new System.Drawing.Point(289, 216);
-            this.picPlayer4.Name = "picPlayer4";
-            this.picPlayer4.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer4.TabIndex = 17;
-            this.picPlayer4.TabStop = false;
-            // 
-            // picPlayer3
-            // 
-            this.picPlayer3.Location = new System.Drawing.Point(197, 216);
-            this.picPlayer3.Name = "picPlayer3";
-            this.picPlayer3.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer3.TabIndex = 16;
-            this.picPlayer3.TabStop = false;
-            // 
-            // picPlayer2
-            // 
-            this.picPlayer2.Location = new System.Drawing.Point(105, 216);
-            this.picPlayer2.Name = "picPlayer2";
-            this.picPlayer2.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer2.TabIndex = 15;
-            this.picPlayer2.TabStop = false;
-            // 
-            // picPlayer1
-            // 
-            this.picPlayer1.Location = new System.Drawing.Point(13, 216);
-            this.picPlayer1.Name = "picPlayer1";
-            this.picPlayer1.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer1.TabIndex = 14;
-            this.picPlayer1.TabStop = false;
             // 
             // lblPlayerComment
             // 
@@ -410,61 +329,6 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.aboutToolStripMenuItem.Text = "About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // picComputer6
-            // 
-            this.picComputer6.Location = new System.Drawing.Point(475, 453);
-            this.picComputer6.Name = "picComputer6";
-            this.picComputer6.Size = new System.Drawing.Size(85, 120);
-            this.picComputer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer6.TabIndex = 35;
-            this.picComputer6.TabStop = false;
-            // 
-            // picComputer5
-            // 
-            this.picComputer5.Location = new System.Drawing.Point(381, 453);
-            this.picComputer5.Name = "picComputer5";
-            this.picComputer5.Size = new System.Drawing.Size(85, 120);
-            this.picComputer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer5.TabIndex = 34;
-            this.picComputer5.TabStop = false;
-            // 
-            // picComputer4
-            // 
-            this.picComputer4.Location = new System.Drawing.Point(289, 453);
-            this.picComputer4.Name = "picComputer4";
-            this.picComputer4.Size = new System.Drawing.Size(85, 120);
-            this.picComputer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer4.TabIndex = 33;
-            this.picComputer4.TabStop = false;
-            // 
-            // picComputer3
-            // 
-            this.picComputer3.Location = new System.Drawing.Point(197, 453);
-            this.picComputer3.Name = "picComputer3";
-            this.picComputer3.Size = new System.Drawing.Size(85, 120);
-            this.picComputer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer3.TabIndex = 32;
-            this.picComputer3.TabStop = false;
-            // 
-            // picComputer2
-            // 
-            this.picComputer2.Location = new System.Drawing.Point(105, 453);
-            this.picComputer2.Name = "picComputer2";
-            this.picComputer2.Size = new System.Drawing.Size(85, 120);
-            this.picComputer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer2.TabIndex = 31;
-            this.picComputer2.TabStop = false;
-            // 
-            // picComputer1
-            // 
-            this.picComputer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picComputer1.Location = new System.Drawing.Point(13, 453);
-            this.picComputer1.Name = "picComputer1";
-            this.picComputer1.Size = new System.Drawing.Size(85, 120);
-            this.picComputer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer1.TabIndex = 30;
-            this.picComputer1.TabStop = false;
             // 
             // lblComputerComment
             // 
@@ -769,6 +633,36 @@
             this.btnNewRound.UseVisualStyleBackColor = false;
             this.btnNewRound.Click += new System.EventHandler(this.btnNewRound_Click);
             // 
+            // picComputer7
+            // 
+            this.picComputer7.Location = new System.Drawing.Point(565, 453);
+            this.picComputer7.Name = "picComputer7";
+            this.picComputer7.Size = new System.Drawing.Size(85, 120);
+            this.picComputer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer7.TabIndex = 69;
+            this.picComputer7.TabStop = false;
+            // 
+            // picPlayer7
+            // 
+            this.picPlayer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picPlayer7.Location = new System.Drawing.Point(565, 216);
+            this.picPlayer7.Name = "picPlayer7";
+            this.picPlayer7.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer7.TabIndex = 68;
+            this.picPlayer7.TabStop = false;
+            // 
+            // picDealer7
+            // 
+            this.picDealer7.ErrorImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer7.Location = new System.Drawing.Point(565, 57);
+            this.picDealer7.Name = "picDealer7";
+            this.picDealer7.Size = new System.Drawing.Size(85, 120);
+            this.picDealer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer7.TabIndex = 67;
+            this.picDealer7.TabStop = false;
+            // 
             // picDealer6
             // 
             this.picDealer6.ErrorImage = global::BlackJack.Properties.Resources.CARD0;
@@ -799,35 +693,146 @@
             this.picDealer4.TabIndex = 64;
             this.picDealer4.TabStop = false;
             // 
-            // picDealer7
+            // picComputer6
             // 
-            this.picDealer7.ErrorImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picDealer7.Location = new System.Drawing.Point(565, 57);
-            this.picDealer7.Name = "picDealer7";
-            this.picDealer7.Size = new System.Drawing.Size(85, 120);
-            this.picDealer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDealer7.TabIndex = 67;
-            this.picDealer7.TabStop = false;
+            this.picComputer6.Location = new System.Drawing.Point(475, 453);
+            this.picComputer6.Name = "picComputer6";
+            this.picComputer6.Size = new System.Drawing.Size(85, 120);
+            this.picComputer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer6.TabIndex = 35;
+            this.picComputer6.TabStop = false;
             // 
-            // picPlayer7
+            // picComputer5
             // 
-            this.picPlayer7.InitialImage = global::BlackJack.Properties.Resources.CARD0;
-            this.picPlayer7.Location = new System.Drawing.Point(565, 216);
-            this.picPlayer7.Name = "picPlayer7";
-            this.picPlayer7.Size = new System.Drawing.Size(85, 120);
-            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer7.TabIndex = 68;
-            this.picPlayer7.TabStop = false;
+            this.picComputer5.Location = new System.Drawing.Point(381, 453);
+            this.picComputer5.Name = "picComputer5";
+            this.picComputer5.Size = new System.Drawing.Size(85, 120);
+            this.picComputer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer5.TabIndex = 34;
+            this.picComputer5.TabStop = false;
             // 
-            // picComputer7
+            // picComputer4
             // 
-            this.picComputer7.Location = new System.Drawing.Point(565, 453);
-            this.picComputer7.Name = "picComputer7";
-            this.picComputer7.Size = new System.Drawing.Size(85, 120);
-            this.picComputer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picComputer7.TabIndex = 69;
-            this.picComputer7.TabStop = false;
+            this.picComputer4.Location = new System.Drawing.Point(289, 453);
+            this.picComputer4.Name = "picComputer4";
+            this.picComputer4.Size = new System.Drawing.Size(85, 120);
+            this.picComputer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer4.TabIndex = 33;
+            this.picComputer4.TabStop = false;
+            // 
+            // picComputer3
+            // 
+            this.picComputer3.Location = new System.Drawing.Point(197, 453);
+            this.picComputer3.Name = "picComputer3";
+            this.picComputer3.Size = new System.Drawing.Size(85, 120);
+            this.picComputer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer3.TabIndex = 32;
+            this.picComputer3.TabStop = false;
+            // 
+            // picComputer2
+            // 
+            this.picComputer2.Location = new System.Drawing.Point(105, 453);
+            this.picComputer2.Name = "picComputer2";
+            this.picComputer2.Size = new System.Drawing.Size(85, 120);
+            this.picComputer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer2.TabIndex = 31;
+            this.picComputer2.TabStop = false;
+            // 
+            // picComputer1
+            // 
+            this.picComputer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picComputer1.Location = new System.Drawing.Point(13, 453);
+            this.picComputer1.Name = "picComputer1";
+            this.picComputer1.Size = new System.Drawing.Size(85, 120);
+            this.picComputer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picComputer1.TabIndex = 30;
+            this.picComputer1.TabStop = false;
+            // 
+            // picPlayer6
+            // 
+            this.picPlayer6.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picPlayer6.Location = new System.Drawing.Point(475, 216);
+            this.picPlayer6.Name = "picPlayer6";
+            this.picPlayer6.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer6.TabIndex = 19;
+            this.picPlayer6.TabStop = false;
+            // 
+            // picPlayer5
+            // 
+            this.picPlayer5.Location = new System.Drawing.Point(381, 216);
+            this.picPlayer5.Name = "picPlayer5";
+            this.picPlayer5.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer5.TabIndex = 18;
+            this.picPlayer5.TabStop = false;
+            // 
+            // picPlayer4
+            // 
+            this.picPlayer4.Location = new System.Drawing.Point(289, 216);
+            this.picPlayer4.Name = "picPlayer4";
+            this.picPlayer4.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer4.TabIndex = 17;
+            this.picPlayer4.TabStop = false;
+            // 
+            // picPlayer3
+            // 
+            this.picPlayer3.Location = new System.Drawing.Point(197, 216);
+            this.picPlayer3.Name = "picPlayer3";
+            this.picPlayer3.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer3.TabIndex = 16;
+            this.picPlayer3.TabStop = false;
+            // 
+            // picPlayer2
+            // 
+            this.picPlayer2.Location = new System.Drawing.Point(105, 216);
+            this.picPlayer2.Name = "picPlayer2";
+            this.picPlayer2.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer2.TabIndex = 15;
+            this.picPlayer2.TabStop = false;
+            // 
+            // picPlayer1
+            // 
+            this.picPlayer1.Location = new System.Drawing.Point(13, 216);
+            this.picPlayer1.Name = "picPlayer1";
+            this.picPlayer1.Size = new System.Drawing.Size(85, 120);
+            this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer1.TabIndex = 14;
+            this.picPlayer1.TabStop = false;
+            // 
+            // picDealer3
+            // 
+            this.picDealer3.Location = new System.Drawing.Point(197, 57);
+            this.picDealer3.Name = "picDealer3";
+            this.picDealer3.Size = new System.Drawing.Size(85, 120);
+            this.picDealer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer3.TabIndex = 8;
+            this.picDealer3.TabStop = false;
+            this.picDealer3.UseWaitCursor = true;
+            // 
+            // picDealer2
+            // 
+            this.picDealer2.Location = new System.Drawing.Point(105, 57);
+            this.picDealer2.Name = "picDealer2";
+            this.picDealer2.Size = new System.Drawing.Size(85, 120);
+            this.picDealer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer2.TabIndex = 7;
+            this.picDealer2.TabStop = false;
+            this.picDealer2.UseWaitCursor = true;
+            // 
+            // picDealer1
+            // 
+            this.picDealer1.InitialImage = global::BlackJack.Properties.Resources.CARD0;
+            this.picDealer1.Location = new System.Drawing.Point(13, 57);
+            this.picDealer1.Name = "picDealer1";
+            this.picDealer1.Size = new System.Drawing.Size(85, 120);
+            this.picDealer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDealer1.TabIndex = 6;
+            this.picDealer1.TabStop = false;
+            this.picDealer1.UseWaitCursor = true;
             // 
             // frmBlackJack
             // 
@@ -896,29 +901,31 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Blackjack";
             this.Load += new System.EventHandler(this.frmBlackjack_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
             this.mnuMain.ResumeLayout(false);
             this.mnuMain.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComputer1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDealer7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picComputer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDealer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -995,6 +1002,8 @@
         public System.Windows.Forms.PictureBox picDealer7;
         public System.Windows.Forms.PictureBox picPlayer7;
         public System.Windows.Forms.PictureBox picComputer7;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.BindingSource bindingSource2;
         }
 }
 

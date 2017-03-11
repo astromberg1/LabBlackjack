@@ -64,7 +64,10 @@ namespace BlackJack
         private void mnuFileNew_Click(object sender, EventArgs e)
             {
             // start new game - clear winnings and start over
-            System.Media.SoundPlayer finishSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\tada.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.TADA;
+            System.Media.SoundPlayer finishSoundPlayer = new System.Media.SoundPlayer(audio);
+
+           
             finishSoundPlayer.Play();
 
             lblWinnings.Text = "0";
@@ -209,7 +212,9 @@ namespace BlackJack
 
         public void Computerplays()
             {
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\cardPlace1.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.cardPlace1;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
+            
 
             do
                 {
@@ -287,7 +292,9 @@ namespace BlackJack
         public void Dealerplays()
             {
             Thread.Sleep(500);
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\cardPlace1.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.cardPlace1;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
+            
             picDealer1.Image = gm.Players[0].Cardhand.Cards[0].CardFace;
             startSoundPlayer.Play();
             this.Refresh();
@@ -420,10 +427,15 @@ namespace BlackJack
 
         public void calculateWinner()
             {
-             System.Media.SoundPlayer startSoundPlayerwin = new System.Media.SoundPlayer(@"C:\Windows\Media\applause_y.wav");
-             System.Media.SoundPlayer startSoundPlayerlos = new System.Media.SoundPlayer(@"C:\Windows\Media\boo.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.applause;
+          
+            System.Media.SoundPlayer startSoundPlayerwin = new System.Media.SoundPlayer(audio);
+            audio = BlackJack.Properties.Resources.boo;
+            System.Media.SoundPlayer startSoundPlayerlos = new System.Media.SoundPlayer(audio);
             
-             
+            
+
+
 
             if (gm.Players[0].Cardhand.Above21)
                 {
@@ -619,7 +631,10 @@ namespace BlackJack
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
             {
             var form = new AboutBox1();
-            System.Media.SoundPlayer finishSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\drum_roll_y.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.drum_roll_y;
+
+            
+            System.Media.SoundPlayer finishSoundPlayer = new  System.Media.SoundPlayer(audio);
             finishSoundPlayer.Play();
             form.Show();
 
@@ -666,7 +681,10 @@ namespace BlackJack
             gm.askComputerplayerBet();
             lblComputerComment.Text = "Computer Bets " + gm.Players[2].Betsize.ToString();
             lblComBetsize.Text = gm.Players[2].Betsize.ToString();
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\chipLay3.wav");
+
+            System.IO.Stream audio = BlackJack.Properties.Resources.chipLay3;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
+           
             startSoundPlayer.Play();
             Refresh();
 
@@ -711,7 +729,11 @@ namespace BlackJack
                 }
 
             lblPlayerComment.Text = "Your Bets are " + _bet_size + "! Press Deal Now!";
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\chipLay3.wav");
+
+            System.IO.Stream audio = BlackJack.Properties.Resources.chipLay3;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
+
+           
             startSoundPlayer.Play();
             gm.GetplayerBet(_bet_size);
             btnChbet.Visible = false;
@@ -798,7 +820,13 @@ namespace BlackJack
 
             this.Refresh();
             Application.DoEvents();
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\cardShuffle.wav");
+            
+
+
+            System.IO.Stream audio = BlackJack.Properties.Resources.cardShuffle;
+
+
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
             startSoundPlayer.Play();
             NewHand();
             Refresh();
@@ -808,7 +836,8 @@ namespace BlackJack
 
         private void btnHit_Click(object sender, EventArgs e)
             {
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\cardPlace1.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.cardPlace1;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
             startSoundPlayer.Play();
             addCardPlayer();
             
@@ -826,7 +855,11 @@ namespace BlackJack
             btnStay.Enabled = false;
             btnHit.Visible = false;
             btnStay.Visible = false;
-            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\chord.wav");
+            System.IO.Stream audio = BlackJack.Properties.Resources.CHORD;
+            System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(audio);
+
+
+          
             startSoundPlayer.Play();
             //lblComputerComment.Text = " Computer Plays Now...";
             //lblPlayerComment.Text = " You Stands on " + lblYouCardPoints.Text;
