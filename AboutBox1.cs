@@ -124,11 +124,16 @@ namespace BlackJack
         private void AboutBox1_Load(object sender, EventArgs e)
             {
             textBoxDescription.Enabled = true;
-            textBoxDescription.Text = "Utvecklat av Anders Strömberg, Rickard Holmgren" + Environment.NewLine;
-            textBoxDescription.Text = textBoxDescription.Text + "Och Emil Lindgren, Katrina Rosales" + Environment.NewLine;
+            textBoxDescription.Text = "Utvecklat av Anders Strömberg" + Environment.NewLine;
+          
             textBoxDescription.Text = textBoxDescription.Text  + Environment.NewLine;
             textBoxDescription.Text = textBoxDescription.Text + "Have Fun!" + Environment.NewLine;
             textBoxDescription.Show();
+            }
+
+        private void labelCompanyName_Click(object sender, EventArgs e)
+            {
+
             }
         }
     }
